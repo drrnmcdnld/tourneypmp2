@@ -7,9 +7,11 @@
 
 <?php
     if (count($tournaments) > 0) {
+        foreach($tournaments as $tourney) {            
 ?>
-
+<p><a href="/Tournament/view/id/<?php echo $tourney->id; ?>/"><?php echo $tourney->name; ?></a></p>
 <?php
+        }
     }
     else {
 ?>
@@ -17,3 +19,4 @@
 <?php
     }
 ?>
+<a href="/Tournament/create">Add Tournament</a>

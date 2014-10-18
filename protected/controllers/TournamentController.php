@@ -70,6 +70,7 @@ class TournamentController extends Controller
 		if(isset($_POST['Tournament']))
 		{
 			$model->attributes=$_POST['Tournament'];
+                        $model->user_id = Yii::app()->user->uid;
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -122,7 +123,11 @@ class TournamentController extends Controller
 	 */
 	public function actionIndex()
 	{
-            $tournaments = Tournament::model()->find("user_id=:uid", array(":uid"=>Yii::app()->user->uid));
+            /*ini_set('display_startup_errors',1);
+            ini_set('display_errors',1);
+            error_reporting(-1);*/
+            $tournaments = Tournament::model()->findAll("user_id=:uid", array(":uid"=>Yii::app()->user->uid));
+           
 		$this->render('index',array(
                     'tournaments'=>$tournaments,
 		));
