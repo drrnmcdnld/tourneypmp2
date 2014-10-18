@@ -122,9 +122,9 @@ class TournamentController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Tournament');
+            $tournaments = Tournament::model()->find("user_id=:uid", array(":uid"=>Yii::app()->user->uid));
 		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
+                    'tournaments'=>$tournaments,
 		));
 	}
 
