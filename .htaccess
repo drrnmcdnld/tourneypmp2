@@ -1,0 +1,14 @@
+# Turning on the rewrite engine is necessary for the following rules and features.
+# FollowSymLinks must be enabled for this to work.
+
+Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /
+
+#RewriteCond %{HTTP_HOST} ^(.*)\.instantdiner\.test
+#RewriteRule ^(.*)$ http://www.instantdiner.test/pizzago/%1/order/ [L,NC,QSA]
+
+# Unless an explicit file or directory exists, redirect all request to Yii entry script
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php

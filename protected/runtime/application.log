@@ -1,0 +1,305 @@
+2014/10/18 12:25:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/www/instantdiner/protected/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/instantdiner/protected/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/instantdiner/protected/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/instantdiner/protected/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(442): CModule->getComponent('db')
+#4 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /var/www/instantdiner/protected/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /var/www/instantdiner/protected/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /var/www/instantdiner/protected/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /var/www/instantdiner/protected/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#12 /var/www/instantdiner/protected/framework/yiic.php(33): CApplication->run()
+#13 /var/www/tourneypimp/protected/yiic.php(7): require_once('/var/www/instan...')
+#14 /var/www/tourneypimp/protected/yiic(4): require_once('/var/www/tourne...')
+#15 {main}
+---
+2014/10/18 12:27:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/www/instantdiner/protected/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/instantdiner/protected/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/instantdiner/protected/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/instantdiner/protected/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(442): CModule->getComponent('db')
+#4 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /var/www/instantdiner/protected/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /var/www/instantdiner/protected/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /var/www/instantdiner/protected/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /var/www/instantdiner/protected/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#12 /var/www/instantdiner/protected/framework/yiic.php(33): CApplication->run()
+#13 /var/www/tourneypimp/protected/yiic.php(7): require_once('/var/www/instan...')
+#14 /var/www/tourneypimp/protected/yiic(4): require_once('/var/www/tourne...')
+#15 {main}
+---
+2014/10/18 12:33:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/www/instantdiner/protected/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/instantdiner/protected/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/instantdiner/protected/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/instantdiner/protected/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(442): CModule->getComponent('db')
+#4 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /var/www/instantdiner/protected/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /var/www/instantdiner/protected/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /var/www/instantdiner/protected/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /var/www/instantdiner/protected/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#12 /var/www/instantdiner/protected/framework/yiic.php(33): CApplication->run()
+#13 /var/www/tourneypimp/protected/yiic.php(7): require_once('/var/www/instan...')
+#14 /var/www/tourneypimp/protected/yiic(4): require_once('/var/www/tourne...')
+#15 {main}
+---
+2014/10/18 12:37:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/www/instantdiner/protected/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/instantdiner/protected/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/instantdiner/protected/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/instantdiner/protected/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(442): CModule->getComponent('db')
+#4 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /var/www/instantdiner/protected/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /var/www/instantdiner/protected/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /var/www/instantdiner/protected/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /var/www/instantdiner/protected/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#12 /var/www/instantdiner/protected/framework/yiic.php(33): CApplication->run()
+#13 /var/www/tourneypimp/protected/yiic.php(7): require_once('/var/www/instan...')
+#14 /var/www/tourneypimp/protected/yiic(4): require_once('/var/www/tourne...')
+#15 {main}
+---
+2014/10/18 12:44:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/www/instantdiner/protected/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/instantdiner/protected/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/instantdiner/protected/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/instantdiner/protected/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(442): CModule->getComponent('db')
+#4 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /var/www/instantdiner/protected/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /var/www/instantdiner/protected/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /var/www/instantdiner/protected/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /var/www/instantdiner/protected/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#12 /var/www/instantdiner/protected/framework/yiic.php(33): CApplication->run()
+#13 /var/www/tourneypimp/protected/yiic.php(7): require_once('/var/www/instan...')
+#14 /var/www/tourneypimp/protected/yiic(4): require_once('/var/www/tourne...')
+#15 {main}
+---
+2014/10/18 12:48:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/www/instantdiner/protected/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/instantdiner/protected/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/instantdiner/protected/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/instantdiner/protected/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(442): CModule->getComponent('db')
+#4 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /var/www/instantdiner/protected/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /var/www/instantdiner/protected/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /var/www/instantdiner/protected/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /var/www/instantdiner/protected/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#12 /var/www/instantdiner/protected/framework/yiic.php(33): CApplication->run()
+#13 /var/www/tourneypimp/protected/yiic.php(7): require_once('/var/www/instan...')
+#14 /var/www/tourneypimp/protected/yiic(4): require_once('/var/www/tourne...')
+#15 {main}
+---
+2014/10/18 12:49:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/www/instantdiner/protected/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/instantdiner/protected/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/instantdiner/protected/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/instantdiner/protected/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(442): CModule->getComponent('db')
+#4 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /var/www/instantdiner/protected/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /var/www/instantdiner/protected/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /var/www/instantdiner/protected/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /var/www/instantdiner/protected/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#12 /var/www/instantdiner/protected/framework/yiic.php(33): CApplication->run()
+#13 /var/www/tourneypimp/protected/yiic.php(7): require_once('/var/www/instan...')
+#14 /var/www/tourneypimp/protected/yiic(4): require_once('/var/www/tourne...')
+#15 {main}
+---
+2014/10/18 12:49:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/www/instantdiner/protected/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/instantdiner/protected/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/instantdiner/protected/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/instantdiner/protected/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(442): CModule->getComponent('db')
+#4 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /var/www/instantdiner/protected/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /var/www/instantdiner/protected/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /var/www/instantdiner/protected/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /var/www/instantdiner/protected/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#12 /var/www/instantdiner/protected/framework/yiic.php(33): CApplication->run()
+#13 /var/www/tourneypimp/protected/yiic.php(7): require_once('/var/www/instan...')
+#14 /var/www/tourneypimp/protected/yiic(4): require_once('/var/www/tourne...')
+#15 {main}
+---
+2014/10/18 12:50:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/www/instantdiner/protected/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/instantdiner/protected/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/instantdiner/protected/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/instantdiner/protected/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(442): CModule->getComponent('db')
+#4 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /var/www/instantdiner/protected/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /var/www/instantdiner/protected/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /var/www/instantdiner/protected/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /var/www/instantdiner/protected/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#12 /var/www/instantdiner/protected/framework/yiic.php(33): CApplication->run()
+#13 /var/www/tourneypimp/protected/yiic.php(7): require_once('/var/www/instan...')
+#14 /var/www/tourneypimp/protected/yiic(4): require_once('/var/www/tourne...')
+#15 {main}
+---
+2014/10/18 12:52:54 [error] [system.db.CDbCommand] Error in preparing SQL: CREATE TABLE 'users' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"name" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"create_time" datetime DEFAULT NULL,
+	"last_login" datetime DEFAULT NULL
+) ENGINE=InnoDB
+2014/10/18 12:52:54 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "ENGINE": syntax error. The SQL statement executed was: CREATE TABLE 'users' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"name" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"create_time" datetime DEFAULT NULL,
+	"last_login" datetime DEFAULT NULL
+) ENGINE=InnoDB.
+2014/10/18 12:52:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "ENGINE": syntax error. The SQL statement executed was: CREATE TABLE 'users' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"name" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"create_time" datetime DEFAULT NULL,
+	"last_login" datetime DEFAULT NULL
+) ENGINE=InnoDB' in /var/www/instantdiner/protected/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/instantdiner/protected/framework/db/CDbCommand.php(1324): CDbCommand->execute()
+#1 /var/www/instantdiner/protected/framework/db/CDbMigration.php(233): CDbCommand->createTable('users', Array, 'ENGINE=InnoDB')
+#2 /var/www/tourneypimp/protected/migrations/m141018_151947_add_initial_tourneypmp_tables.php(14): CDbMigration->createTable('users', Array, 'ENGINE=InnoDB')
+#3 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(385): m141018_151947_add_initial_tourneypmp_tables->up()
+#4 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m141018_151947_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 /var/www/instantdiner/protected/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /var/www/instantdiner/protected/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/instantdiner/protected/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/instantdiner/protected/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/instantdiner/protected/framework/yiic.php(33): CApplication->run()
+#11 /var/www/tourneypimp/protected/yiic.php(7): require_once('/var/www/instan...')
+#12 /var/www/tourneypimp/protected/yiic(4): require_once('/var/www/tourne...')
+#13 {main}
+---
+2014/10/18 14:06:46 [error] [exception.CDbException] exception 'CDbException' with message 'Adding a foreign key constraint to an existing table is not supported by SQLite.' in /var/www/instantdiner/protected/framework/db/schema/sqlite/CSqliteSchema.php:261
+Stack trace:
+#0 /var/www/instantdiner/protected/framework/db/CDbCommand.php(1435): CSqliteSchema->addForeignKey('pk_tournaments_...', 'tournaments', 'user_id', 'users', 'id', NULL, NULL)
+#1 /var/www/instantdiner/protected/framework/db/CDbMigration.php(348): CDbCommand->addForeignKey('pk_tournaments_...', 'tournaments', 'user_id', 'users', 'id', NULL, NULL)
+#2 /var/www/tourneypimp/protected/migrations/m141018_151947_add_initial_tourneypmp_tables.php(23): CDbMigration->addForeignKey('pk_tournaments_...', 'tournaments', 'user_id', 'users', 'id')
+#3 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(385): m141018_151947_add_initial_tourneypmp_tables->up()
+#4 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m141018_151947_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 /var/www/instantdiner/protected/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /var/www/instantdiner/protected/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/instantdiner/protected/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/instantdiner/protected/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/instantdiner/protected/framework/yiic.php(33): CApplication->run()
+#11 /var/www/tourneypimp/protected/yiic.php(7): require_once('/var/www/instan...')
+#12 /var/www/tourneypimp/protected/yiic(4): require_once('/var/www/tourne...')
+#13 {main}
+---
+2014/10/18 14:09:02 [error] [system.db.CDbCommand] Error in preparing SQL: CREATE TABLE 'users' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"name" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"create_time" datetime DEFAULT NULL,
+	"last_login" datetime DEFAULT NULL
+)
+2014/10/18 14:09:02 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'users' already exists. The SQL statement executed was: CREATE TABLE 'users' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"name" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"create_time" datetime DEFAULT NULL,
+	"last_login" datetime DEFAULT NULL
+).
+2014/10/18 14:09:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'users' already exists. The SQL statement executed was: CREATE TABLE 'users' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"name" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"create_time" datetime DEFAULT NULL,
+	"last_login" datetime DEFAULT NULL
+)' in /var/www/instantdiner/protected/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/instantdiner/protected/framework/db/CDbCommand.php(1324): CDbCommand->execute()
+#1 /var/www/instantdiner/protected/framework/db/CDbMigration.php(233): CDbCommand->createTable('users', Array, NULL)
+#2 /var/www/tourneypimp/protected/migrations/m141018_151947_add_initial_tourneypmp_tables.php(14): CDbMigration->createTable('users', Array)
+#3 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(385): m141018_151947_add_initial_tourneypmp_tables->up()
+#4 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m141018_151947_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 /var/www/instantdiner/protected/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /var/www/instantdiner/protected/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/instantdiner/protected/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/instantdiner/protected/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/instantdiner/protected/framework/yiic.php(33): CApplication->run()
+#11 /var/www/tourneypimp/protected/yiic.php(7): require_once('/var/www/instan...')
+#12 /var/www/tourneypimp/protected/yiic(4): require_once('/var/www/tourne...')
+#13 {main}
+---
+2014/10/18 14:13:00 [error] [system.db.CDbCommand] Error in preparing SQL: CREATE TABLE 'tournaments' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"user_id" int(11) NOT NULL REFERENCES users(id),
+	"name" varchar(255) NOT NULL,
+	"start_date" date,
+	"end_date" date
+)
+2014/10/18 14:13:00 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tournaments' already exists. The SQL statement executed was: CREATE TABLE 'tournaments' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"user_id" int(11) NOT NULL REFERENCES users(id),
+	"name" varchar(255) NOT NULL,
+	"start_date" date,
+	"end_date" date
+).
+2014/10/18 14:13:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tournaments' already exists. The SQL statement executed was: CREATE TABLE 'tournaments' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"user_id" int(11) NOT NULL REFERENCES users(id),
+	"name" varchar(255) NOT NULL,
+	"start_date" date,
+	"end_date" date
+)' in /var/www/instantdiner/protected/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/instantdiner/protected/framework/db/CDbCommand.php(1324): CDbCommand->execute()
+#1 /var/www/instantdiner/protected/framework/db/CDbMigration.php(233): CDbCommand->createTable('tournaments', Array, NULL)
+#2 /var/www/tourneypimp/protected/migrations/m141018_151947_add_initial_tourneypmp_tables.php(24): CDbMigration->createTable('tournaments', Array)
+#3 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(385): m141018_151947_add_initial_tourneypmp_tables->up()
+#4 /var/www/instantdiner/protected/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m141018_151947_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 /var/www/instantdiner/protected/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /var/www/instantdiner/protected/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/instantdiner/protected/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/instantdiner/protected/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/instantdiner/protected/framework/yiic.php(33): CApplication->run()
+#11 /var/www/tourneypimp/protected/yiic.php(7): require_once('/var/www/instan...')
+#12 /var/www/tourneypimp/protected/yiic(4): require_once('/var/www/tourne...')
+#13 {main}
+---
