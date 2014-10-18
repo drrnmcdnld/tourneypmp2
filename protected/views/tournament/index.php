@@ -9,7 +9,7 @@
     if (count($tournaments) > 0) {
         foreach($tournaments as $tourney) {            
 ?>
-<p><a href="/Tournament/view/id/<?php echo $tourney->id; ?>/"><?php echo $tourney->name; ?></a></p>
+<?php echo TbHtml::linkButton($tourney->name, array('url'=>array('Tournament/view', 'id'=>$tourney->id)));  ?><br />
 <?php
         }
     }
@@ -19,4 +19,4 @@
 <?php
     }
 ?>
-<a href="/Tournament/create">Add Tournament</a>
+<?php echo TbHtml::linkButton('Add Tournament', array('url'=>array('Tournament/create')));  ?>

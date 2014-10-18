@@ -21,6 +21,8 @@ return array(
             'application.models.*',
             'application.components.*',
             'bootstrap.helpers.TbHtml', 
+            'bootstrap.helpers.TbArray',
+            'bootstrap.behaviors.TbWidget',
 	),
 
 	'modules'=>array(
