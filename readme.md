@@ -1,4 +1,4 @@
-<h1>Welcome to ![logo](https://github.com/robmyers82/tourneypmp2/blob/master/images/TourneyPMPlogo.png)</h1>
+Welcome to ![logo](https://github.com/robmyers82/tourneypmp2/blob/master/images/TourneyPMPlogo.png)
 
 
 <h2>Welcome to the our Marcato Hackathon project</h2>
