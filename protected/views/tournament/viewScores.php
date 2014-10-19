@@ -2,6 +2,12 @@
 /* @var $this TournamentController */
 /* @var $tournament Tournament */
 ?>
+
+<div class="btn-group league-display-buttons">
+    <button class="btn btn-default btn-current" type="button">Scores</button>
+    <?php echo TbHtml::linkButton('Standings', array('url'=>array('viewStandings', 'id'=>$tournament->id), 'class'=>'btn-default')); ?>
+</div>
+
 <h1>Scores: <?php echo $tournament->name; ?></h1>
 
 <?php

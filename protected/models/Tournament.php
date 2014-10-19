@@ -111,7 +111,41 @@ class Tournament extends CActiveRecord
 		return parent::model($className);
 	}
         
-        /*public function getStandings() {
-            $sql = "SELECT SUM(games"
-        }*/
+        public function getStandings($tid) {
+            $games = Game::model()->findAll('tournament_id=:tid', array(':tid'=>$tid));
+            $teams = Team::model()->findAll('tournament_id=:tid', array(':tid'=>$tid));
+            $teampoints = array();
+            foreach($teams as $team) {
+                $teampoints["team-".$team->id] = 0;
+            }
+            
+            //tally the totals
+            foreach($games as $game) {
+                if ($game->game_played) {
+                    if ($game->home_team_score > $game->away_team_score) {
+                        $teampoints["team-".$game->home_team_id] += 2;
+                    }
+                    if ($game->home_team_score < $game->away_team_score) {
+                        $teampoints["team-".$game->away_team_id] += 2;
+                    }
+                    if ($game->home_team_score == $game->away_team_score) {
+                        $teampoints["team-".$game->home_team_id] += 1;
+                        $teampoints["team-".$game->away_team_id] += 1;
+                    }
+                }
+            }
+            
+            //sort the points
+            arsort($teampoints);
+            
+            $standings = array();
+            //grab each team
+            foreach($teampoints as $team_id=>$val) {
+                $team_id_clean = preg_replace("/^team\-/", "", $team_id);
+                $standingTeam = Team::model()->find("id=:tid", array(":tid"=>$team_id_clean));
+                array_push($standings, $standingTeam);
+            }
+            
+            return $standings;
+        }
 }

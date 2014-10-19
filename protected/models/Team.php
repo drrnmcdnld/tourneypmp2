@@ -103,4 +103,54 @@ class Team extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+        
+        public function getWins() {
+            $total = 0;
+            $games = Game::model()->findAll('home_team_id=:tid', array(':tid'=>$this->id));
+            foreach($games as $game) {
+                if ($game->home_team_score > $game->away_team_score) {
+                    $total++;
+                }
+            }
+            
+            $games = Game::model()->findAll('away_team_id=:tid', array(':tid'=>$this->id));
+            foreach($games as $game) {
+                if ($game->home_team_score < $game->away_team_score) {
+                    $total++;
+                }
+            }
+            
+            return $total;
+        }
+        
+        public function getLosses() {
+            $total = 0;
+            $games = Game::model()->findAll('home_team_id=:tid', array(':tid'=>$this->id));
+            foreach($games as $game) {
+                if ($game->home_team_score < $game->away_team_score) {
+                    $total++;
+                }
+            }
+            
+            $games = Game::model()->findAll('away_team_id=:tid', array(':tid'=>$this->id));
+            foreach($games as $game) {
+                if ($game->home_team_score > $game->away_team_score) {
+                    $total++;
+                }
+            }
+            
+            return $total;
+        }
+        
+        public function getTies() {
+            $total = 0;
+            $games = Game::model()->findAll('home_team_id=:tid AND away_team_id=:tid', array(':tid'=>$this->id));
+            foreach($games as $game) {
+                if ($game->home_team_score == $game->away_team_score) {
+                    $total++;
+                }
+            }
+            
+            return $total;
+        }
 }

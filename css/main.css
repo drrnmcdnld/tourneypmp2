@@ -80,6 +80,20 @@ a.list-group-item:hover {
     margin-bottom: 0px !important;
 }
 
+.btn-group button {
+    border: 1px solid #2c6d15;
+}
+.btn-group button:hover {
+    background: #2c6d15;
+    color: #FFF;
+}
+.btn-current {
+    background: #2c6d15 !important;
+    color: #FFF !important;
+}
+.league-display-buttons {
+    margin-top: 10px;
+}
 
 .row-add-teams > div {
     margin-bottom: 10px;

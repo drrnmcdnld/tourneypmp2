@@ -11,7 +11,7 @@
 <?php
         foreach($tournaments as $tournament) {
 ?>
-    <a class='list-group-item clearfix'><?php echo $tournament->name; ?></a>
+    <a href="/Tournament/viewStandings/<?php echo $tournament->id; ?>/" class='list-group-item clearfix'><?php echo $tournament->name; ?></a>
 <?php
         }
 ?>
