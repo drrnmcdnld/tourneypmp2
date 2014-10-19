@@ -3,6 +3,6 @@
 /* @var $model Team */
 ?>
 
-<h1>Update <?php echo $team->name; ?></h1>
+<h1>Update Team: <?php echo $team->name; ?></h1>
 
 <?php $this->renderPartial('_form', array('team'=>$team)); ?>

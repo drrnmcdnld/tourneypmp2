@@ -21,10 +21,10 @@
 
 <body>
 <?php Yii::app()->bootstrap->register(); ?>
-<div class="container" id="page">
+    <div class="container" id="page">
 
 	<div id="header">
-		<div id="logo">TourneyPimp!</div>
+            <div id="logo"><img src="/images/TourneyPMPlogo.png" width="150" /></div>
 	</div><!-- header -->
 
 	<div id="mainmenu">

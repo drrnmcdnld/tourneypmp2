@@ -14,14 +14,24 @@
 	// See class documentation of CActiveForm for details on this.
 	'enableAjaxValidation'=>false,
     ));
-    
+?>
+<div class="row-fluid row-add-teams">
+<?php
     for ($i = 0; $i < 10; $i++) {
         $counter = $i+1;
+?>
+<div class="col-lg-3">
+<?php
         echo TbHtml::label('Team '.$counter.':', '');
-        echo TbHtml::textField('new_teams[]', '', array());
+        echo TbHtml::textField('new_teams[]', '', array('block'=>true));
+?>
+</div>
+<?php
     }
-    
-    echo TbHtml::submitButton('Add Teams', array('color'=>TbHtml::BUTTON_COLOR_PRIMARY));
+?>
+</div>
+<?php
+    echo TbHtml::submitButton('Add Teams', array('color'=>TbHtml::BUTTON_COLOR_SUCCESS));
 ?>
 
 <?php $this->endWidget(); ?>

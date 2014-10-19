@@ -95,23 +95,27 @@ class GameController extends Controller
 	 * If update is successful, the browser will be redirected to the 'view' page.
 	 * @param integer $id the ID of the game to be updated
 	 */
-	public function actionUpdate($id)
+	public function actionUpdate($id, $tid)
 	{
-		$game=$this->loadModel($id);
+            $game=$this->loadModel($id);
+            $tournament = Tournament::model()->find('id=:tid AND user_id=:uid', array(':tid'=>$tid, ':uid'=>Yii::app()->user->uid));
+            $fields = Field::model()->findAll();
 
-		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($game);
+            // Uncomment the following line if AJAX validation is needed
+            // $this->performAjaxValidation($game);
 
-		if(isset($_POST['Game']))
-		{
-			$game->attributes=$_POST['Game'];
-			if($game->save())
-				$this->redirect(array('view','id'=>$game->id));
-		}
+            if(isset($_POST['Game']))
+            {
+                    $game->attributes=$_POST['Game'];
+                    if($game->save())
+                            $this->redirect(array('view','id'=>$game->id));
+            }
 
-		$this->render('update',array(
-			'game'=>$game,
-		));
+            $this->render('update',array(
+                'game'=>$game,
+                'tournament'=>$tournament,
+                'fields'=>$fields,
+            ));
 	}
         
         public function actionEnterScore($id, $tid)

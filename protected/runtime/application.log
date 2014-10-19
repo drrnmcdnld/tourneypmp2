@@ -1954,3 +1954,429 @@ Stack trace:
 REQUEST_URI=/index.php/Game/enterScore/2?tid=2
 in /var/www/tourneypimp/protected/controllers/GameController.php (124)
 in /var/www/tourneypimp/index.php (14)
+2014/10/19 11:18:24 [error] [php] Undefined variable: tournament (/var/www/tourneypimp/protected/views/game/_form.php:41)
+Stack trace:
+#0 /var/www/tourneypimp/protected/framework/web/CController.php(869): GameController->renderFile()
+#1 /var/www/tourneypimp/protected/views/game/update.php(21): GameController->renderPartial()
+#2 /var/www/tourneypimp/protected/framework/web/CBaseController.php(126): require()
+#3 /var/www/tourneypimp/protected/framework/web/CBaseController.php(95): GameController->renderInternal()
+#4 /var/www/tourneypimp/protected/framework/web/CController.php(869): GameController->renderFile()
+#5 /var/www/tourneypimp/protected/framework/web/CController.php(782): GameController->renderPartial()
+#6 /var/www/tourneypimp/protected/controllers/GameController.php(114): GameController->render()
+#7 unknown(0): GameController->actionUpdate()
+#8 /var/www/tourneypimp/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#9 /var/www/tourneypimp/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 /var/www/tourneypimp/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#11 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(133): GameController->runAction()
+#12 /var/www/tourneypimp/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/tourneypimp/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#14 /var/www/tourneypimp/protected/framework/web/filters/CInlineFilter.php(58): GameController->filterAccessControl()
+#15 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#16 /var/www/tourneypimp/protected/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/tourneypimp/protected/framework/web/CController.php(265): GameController->runActionWithFilters()
+#18 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(282): GameController->run()
+#19 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#20 /var/www/tourneypimp/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /var/www/tourneypimp/index.php(14): CWebApplication->run()
+REQUEST_URI=/index.php/Game/update/2?tid=2
+in /var/www/tourneypimp/protected/views/game/_form.php (41)
+in /var/www/tourneypimp/protected/views/game/update.php (21)
+in /var/www/tourneypimp/protected/controllers/GameController.php (114)
+2014/10/19 11:21:00 [error] [php] Undefined variable: tid (/var/www/tourneypimp/protected/controllers/GameController.php:101)
+Stack trace:
+#0 /var/www/tourneypimp/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /var/www/tourneypimp/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(133): GameController->runAction()
+#3 /var/www/tourneypimp/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /var/www/tourneypimp/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /var/www/tourneypimp/protected/framework/web/filters/CInlineFilter.php(58): GameController->filterAccessControl()
+#6 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /var/www/tourneypimp/protected/framework/web/CController.php(291): CFilterChain->run()
+#8 /var/www/tourneypimp/protected/framework/web/CController.php(265): GameController->runActionWithFilters()
+#9 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(282): GameController->run()
+#10 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /var/www/tourneypimp/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /var/www/tourneypimp/index.php(14): CWebApplication->run()
+REQUEST_URI=/index.php/Game/update/2?tid=2
+in /var/www/tourneypimp/protected/controllers/GameController.php (101)
+in /var/www/tourneypimp/index.php (14)
+2014/10/19 11:49:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/tourneypimp/protected/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/tourneypimp/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/tourneypimp/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/tourneypimp/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/tourneypimp/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/tourneypimp/protected/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/tourneypimp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(282): CController->run('viewStandings')
+#8 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('Tournament/view...')
+#9 /var/www/tourneypimp/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/tourneypimp/index.php(14): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/Tournament/viewStandings/2
+---
+2014/10/19 11:50:50 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /var/www/tourneypimp/protected/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/tourneypimp/protected/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/tourneypimp/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/tourneypimp/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/tourneypimp/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/tourneypimp/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/tourneypimp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(282): CController->run('viewStandings')
+#9 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('Tournament/view...')
+#10 /var/www/tourneypimp/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/tourneypimp/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/Tournament/viewStandings/site/index
+---
+2014/10/19 11:50:52 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /var/www/tourneypimp/protected/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/tourneypimp/protected/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/tourneypimp/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/tourneypimp/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/tourneypimp/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/tourneypimp/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/tourneypimp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(282): CController->run('viewStandings')
+#9 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('Tournament/view...')
+#10 /var/www/tourneypimp/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/tourneypimp/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/Tournament/viewStandings/site/index
+---
+2014/10/19 11:50:57 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /var/www/tourneypimp/protected/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/tourneypimp/protected/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/tourneypimp/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/tourneypimp/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/tourneypimp/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/tourneypimp/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/tourneypimp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(282): CController->run('viewStandings')
+#9 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('Tournament/view...')
+#10 /var/www/tourneypimp/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/tourneypimp/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/Tournament/viewStandings/
+---
+2014/10/19 11:50:59 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /var/www/tourneypimp/protected/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/tourneypimp/protected/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/tourneypimp/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/tourneypimp/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/tourneypimp/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/tourneypimp/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/tourneypimp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(282): CController->run('viewStandings')
+#9 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('Tournament/view...')
+#10 /var/www/tourneypimp/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/tourneypimp/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/Tournament/viewStandings/
+---
+2014/10/19 11:51:10 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /var/www/tourneypimp/protected/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/tourneypimp/protected/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/tourneypimp/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/tourneypimp/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/tourneypimp/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/tourneypimp/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/tourneypimp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(282): CController->run('viewStandings')
+#9 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('Tournament/view...')
+#10 /var/www/tourneypimp/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/tourneypimp/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/Tournament/viewStandings/site/index
+---
+2014/10/19 11:51:27 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /var/www/tourneypimp/protected/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/tourneypimp/protected/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/tourneypimp/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/tourneypimp/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/tourneypimp/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/tourneypimp/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/tourneypimp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(282): CController->run('viewStandings')
+#9 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('Tournament/view...')
+#10 /var/www/tourneypimp/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/tourneypimp/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/Tournament/viewStandings/
+---
+2014/10/19 11:51:30 [error] [php] strpos() expects parameter 1 to be string, array given (/var/www/tourneypimp/protected/framework/web/CController.php:706)
+Stack trace:
+#0 /var/www/tourneypimp/protected/framework/web/CController.php(867): TournamentController->getViewFile()
+#1 /var/www/tourneypimp/protected/framework/web/CController.php(782): TournamentController->renderPartial()
+#2 /var/www/tourneypimp/protected/controllers/TournamentController.php(63): TournamentController->render()
+#3 unknown(0): TournamentController->actionViewStandings()
+#4 /var/www/tourneypimp/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /var/www/tourneypimp/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /var/www/tourneypimp/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(133): TournamentController->runAction()
+#8 /var/www/tourneypimp/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /var/www/tourneypimp/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /var/www/tourneypimp/protected/framework/web/filters/CInlineFilter.php(58): TournamentController->filterAccessControl()
+#11 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /var/www/tourneypimp/protected/framework/web/CController.php(291): CFilterChain->run()
+#13 /var/www/tourneypimp/protected/framework/web/CController.php(265): TournamentController->runActionWithFilters()
+#14 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(282): TournamentController->run()
+#15 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /var/www/tourneypimp/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /var/www/tourneypimp/index.php(14): CWebApplication->run()
+REQUEST_URI=/Tournament/viewStandings/2
+in /var/www/tourneypimp/protected/controllers/TournamentController.php (63)
+in /var/www/tourneypimp/index.php (14)
+2014/10/19 11:53:21 [error] [exception.CException] exception 'CException' with message 'Tournament and its behaviors do not have a method or closure named "getStandings".' in /var/www/tourneypimp/protected/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/tourneypimp/protected/framework/db/ar/CActiveRecord.php(227): CComponent->__call('getStandings', Array)
+#1 /var/www/tourneypimp/protected/views/tournament/viewStandings.php(9): CActiveRecord->__call('getStandings', Array)
+#2 /var/www/tourneypimp/protected/views/tournament/viewStandings.php(9): Tournament->getStandings()
+#3 /var/www/tourneypimp/protected/framework/web/CBaseController.php(126): require('/var/www/tourne...')
+#4 /var/www/tourneypimp/protected/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/tourne...', Array, true)
+#5 /var/www/tourneypimp/protected/framework/web/CController.php(869): CBaseController->renderFile('/var/www/tourne...', Array, true)
+#6 /var/www/tourneypimp/protected/framework/web/CController.php(782): CController->renderPartial('viewStandings', Array, true)
+#7 /var/www/tourneypimp/protected/controllers/TournamentController.php(63): CController->render('viewStandings', Array)
+#8 [internal function]: TournamentController->actionViewStandings('2')
+#9 /var/www/tourneypimp/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TournamentController), Array)
+#10 /var/www/tourneypimp/protected/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TournamentController), Object(ReflectionMethod), Array)
+#11 /var/www/tourneypimp/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 /var/www/tourneypimp/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /var/www/tourneypimp/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 /var/www/tourneypimp/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 /var/www/tourneypimp/protected/framework/web/CController.php(291): CFilterChain->run()
+#18 /var/www/tourneypimp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(282): CController->run('viewStandings')
+#20 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('Tournament/view...')
+#21 /var/www/tourneypimp/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /var/www/tourneypimp/index.php(14): CApplication->run()
+#23 {main}
+REQUEST_URI=/Tournament/viewStandings/2
+---
+2014/10/19 12:05:20 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /var/www/tourneypimp/protected/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/tourneypimp/protected/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/tourneypimp/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/tourneypimp/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/tourneypimp/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/tourneypimp/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/tourneypimp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(282): CController->run('viewScores')
+#9 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('Tournament/view...')
+#10 /var/www/tourneypimp/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/tourneypimp/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/Tournament/viewScores/site/index
+---
+2014/10/19 12:05:53 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /var/www/tourneypimp/protected/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/tourneypimp/protected/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/tourneypimp/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/tourneypimp/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/tourneypimp/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/tourneypimp/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/tourneypimp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(282): CController->run('viewScores')
+#9 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('Tournament/view...')
+#10 /var/www/tourneypimp/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/tourneypimp/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/Tournament/viewScores/site/index
+---
+2014/10/19 12:05:57 [error] [php] strpos() expects parameter 1 to be string, array given (/var/www/tourneypimp/protected/framework/web/CController.php:706)
+Stack trace:
+#0 /var/www/tourneypimp/protected/framework/web/CController.php(867): TournamentController->getViewFile()
+#1 /var/www/tourneypimp/protected/framework/web/CController.php(782): TournamentController->renderPartial()
+#2 /var/www/tourneypimp/protected/controllers/TournamentController.php(74): TournamentController->render()
+#3 unknown(0): TournamentController->actionViewScores()
+#4 /var/www/tourneypimp/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /var/www/tourneypimp/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /var/www/tourneypimp/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(133): TournamentController->runAction()
+#8 /var/www/tourneypimp/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /var/www/tourneypimp/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /var/www/tourneypimp/protected/framework/web/filters/CInlineFilter.php(58): TournamentController->filterAccessControl()
+#11 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /var/www/tourneypimp/protected/framework/web/CController.php(291): CFilterChain->run()
+#13 /var/www/tourneypimp/protected/framework/web/CController.php(265): TournamentController->runActionWithFilters()
+#14 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(282): TournamentController->run()
+#15 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /var/www/tourneypimp/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /var/www/tourneypimp/index.php(14): CWebApplication->run()
+REQUEST_URI=/Tournament/viewScores/2
+in /var/www/tourneypimp/protected/controllers/TournamentController.php (74)
+in /var/www/tourneypimp/index.php (14)
+2014/10/19 12:06:44 [error] [php] strpos() expects parameter 1 to be string, array given (/var/www/tourneypimp/protected/framework/web/CController.php:706)
+Stack trace:
+#0 /var/www/tourneypimp/protected/framework/web/CController.php(867): TournamentController->getViewFile()
+#1 /var/www/tourneypimp/protected/framework/web/CController.php(782): TournamentController->renderPartial()
+#2 /var/www/tourneypimp/protected/controllers/TournamentController.php(74): TournamentController->render()
+#3 unknown(0): TournamentController->actionViewScores()
+#4 /var/www/tourneypimp/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /var/www/tourneypimp/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /var/www/tourneypimp/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(133): TournamentController->runAction()
+#8 /var/www/tourneypimp/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /var/www/tourneypimp/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /var/www/tourneypimp/protected/framework/web/filters/CInlineFilter.php(58): TournamentController->filterAccessControl()
+#11 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /var/www/tourneypimp/protected/framework/web/CController.php(291): CFilterChain->run()
+#13 /var/www/tourneypimp/protected/framework/web/CController.php(265): TournamentController->runActionWithFilters()
+#14 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(282): TournamentController->run()
+#15 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /var/www/tourneypimp/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /var/www/tourneypimp/index.php(14): CWebApplication->run()
+REQUEST_URI=/Tournament/viewScores/2
+in /var/www/tourneypimp/protected/controllers/TournamentController.php (74)
+in /var/www/tourneypimp/index.php (14)
+2014/10/19 12:16:02 [error] [system.db.CDbCommand] Error in preparing SQL: SELECT * FROM 'tournaments' 't' WHERE id=:tid ORDER BY game_time LIMIT 1
+in /var/www/tourneypimp/protected/controllers/TournamentController.php (71)
+in /var/www/tourneypimp/index.php (14)
+2014/10/19 12:16:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such column: game_time' in /var/www/tourneypimp/protected/framework/db/CDbCommand.php:218
+Stack trace:
+#0 /var/www/tourneypimp/protected/framework/db/CDbCommand.php(273): CDbCommand->prepare()
+#1 /var/www/tourneypimp/protected/framework/db/schema/CDbCommandBuilder.php(565): CDbCommand->bindValue(':tid', '2')
+#2 /var/www/tourneypimp/protected/framework/db/schema/CDbCommandBuilder.php(100): CDbCommandBuilder->bindValues(Object(CDbCommand), Array)
+#3 /var/www/tourneypimp/protected/framework/db/ar/CActiveRecord.php(1350): CDbCommandBuilder->createFindCommand(Object(CDbTableSchema), Object(CDbCriteria), 't')
+#4 /var/www/tourneypimp/protected/framework/db/ar/CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#5 /var/www/tourneypimp/protected/controllers/TournamentController.php(71): CActiveRecord->find('id=:tid ORDER B...', Array)
+#6 [internal function]: TournamentController->actionViewScores('2')
+#7 /var/www/tourneypimp/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TournamentController), Array)
+#8 /var/www/tourneypimp/protected/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TournamentController), Object(ReflectionMethod), Array)
+#9 /var/www/tourneypimp/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /var/www/tourneypimp/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /var/www/tourneypimp/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /var/www/tourneypimp/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /var/www/tourneypimp/protected/framework/web/CController.php(291): CFilterChain->run()
+#16 /var/www/tourneypimp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(282): CController->run('viewScores')
+#18 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('Tournament/view...')
+#19 /var/www/tourneypimp/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /var/www/tourneypimp/index.php(14): CApplication->run()
+#21 {main}
+REQUEST_URI=/Tournament/viewScores/2
+---
+2014/10/19 12:18:21 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /var/www/tourneypimp/protected/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/tourneypimp/protected/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/tourneypimp/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/tourneypimp/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/tourneypimp/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/tourneypimp/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/tourneypimp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(282): CController->run('viewScores')
+#9 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('Tournament/view...')
+#10 /var/www/tourneypimp/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/tourneypimp/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/Tournament/viewScores/site/index
+---
+2014/10/19 15:17:14 [error] [exception.CException] exception 'CException' with message 'Property "WhDateTimePicker.block" is not defined.' in /var/www/tourneypimp/protected/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/tourneypimp/protected/framework/web/CWidgetFactory.php(161): CComponent->__set('block', true)
+#1 /var/www/tourneypimp/protected/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(GameController), 'yiiwheels.widge...', Array)
+#2 /var/www/tourneypimp/protected/framework/web/CBaseController.php(172): CBaseController->createWidget('yiiwheels.widge...', Array)
+#3 /var/www/tourneypimp/protected/views/game/_form.php(35): CBaseController->widget('yiiwheels.widge...', Array)
+#4 /var/www/tourneypimp/protected/framework/web/CBaseController.php(126): require('/var/www/tourne...')
+#5 /var/www/tourneypimp/protected/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/tourne...', Array, true)
+#6 /var/www/tourneypimp/protected/framework/web/CController.php(869): CBaseController->renderFile('/var/www/tourne...', Array, true)
+#7 /var/www/tourneypimp/protected/views/game/create.php(8): CController->renderPartial('_form', Array)
+#8 /var/www/tourneypimp/protected/framework/web/CBaseController.php(126): require('/var/www/tourne...')
+#9 /var/www/tourneypimp/protected/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/tourne...', Array, true)
+#10 /var/www/tourneypimp/protected/framework/web/CController.php(869): CBaseController->renderFile('/var/www/tourne...', Array, true)
+#11 /var/www/tourneypimp/protected/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /var/www/tourneypimp/protected/controllers/GameController.php(90): CController->render('create', Array)
+#13 [internal function]: GameController->actionCreate('1')
+#14 /var/www/tourneypimp/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(GameController), Array)
+#15 /var/www/tourneypimp/protected/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(GameController), Object(ReflectionMethod), Array)
+#16 /var/www/tourneypimp/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /var/www/tourneypimp/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /var/www/tourneypimp/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /var/www/tourneypimp/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /var/www/tourneypimp/protected/framework/web/CController.php(291): CFilterChain->run()
+#23 /var/www/tourneypimp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(282): CController->run('create')
+#25 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('Game/create')
+#26 /var/www/tourneypimp/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#27 /var/www/tourneypimp/index.php(14): CApplication->run()
+#28 {main}
+REQUEST_URI=/index.php/Game/create?tid=1
+HTTP_REFERER=http://www.tourneypimp.test/Tournament/1/
+---
+2014/10/19 15:17:15 [error] [exception.CException] exception 'CException' with message 'Property "WhDateTimePicker.block" is not defined.' in /var/www/tourneypimp/protected/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/tourneypimp/protected/framework/web/CWidgetFactory.php(161): CComponent->__set('block', true)
+#1 /var/www/tourneypimp/protected/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(GameController), 'yiiwheels.widge...', Array)
+#2 /var/www/tourneypimp/protected/framework/web/CBaseController.php(172): CBaseController->createWidget('yiiwheels.widge...', Array)
+#3 /var/www/tourneypimp/protected/views/game/_form.php(35): CBaseController->widget('yiiwheels.widge...', Array)
+#4 /var/www/tourneypimp/protected/framework/web/CBaseController.php(126): require('/var/www/tourne...')
+#5 /var/www/tourneypimp/protected/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/tourne...', Array, true)
+#6 /var/www/tourneypimp/protected/framework/web/CController.php(869): CBaseController->renderFile('/var/www/tourne...', Array, true)
+#7 /var/www/tourneypimp/protected/views/game/create.php(8): CController->renderPartial('_form', Array)
+#8 /var/www/tourneypimp/protected/framework/web/CBaseController.php(126): require('/var/www/tourne...')
+#9 /var/www/tourneypimp/protected/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/tourne...', Array, true)
+#10 /var/www/tourneypimp/protected/framework/web/CController.php(869): CBaseController->renderFile('/var/www/tourne...', Array, true)
+#11 /var/www/tourneypimp/protected/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /var/www/tourneypimp/protected/controllers/GameController.php(90): CController->render('create', Array)
+#13 [internal function]: GameController->actionCreate('1')
+#14 /var/www/tourneypimp/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(GameController), Array)
+#15 /var/www/tourneypimp/protected/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(GameController), Object(ReflectionMethod), Array)
+#16 /var/www/tourneypimp/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /var/www/tourneypimp/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /var/www/tourneypimp/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /var/www/tourneypimp/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /var/www/tourneypimp/protected/framework/web/CController.php(291): CFilterChain->run()
+#23 /var/www/tourneypimp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(282): CController->run('create')
+#25 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('Game/create')
+#26 /var/www/tourneypimp/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#27 /var/www/tourneypimp/index.php(14): CApplication->run()
+#28 {main}
+REQUEST_URI=/index.php/Game/create?tid=1
+HTTP_REFERER=http://www.tourneypimp.test/Tournament/1/
+---
+2014/10/19 15:47:54 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /var/www/tourneypimp/protected/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/tourneypimp/protected/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/tourneypimp/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/tourneypimp/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/tourneypimp/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/tourneypimp/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/tourneypimp/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/tourneypimp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(282): CController->run('viewScores')
+#9 /var/www/tourneypimp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('Tournament/view...')
+#10 /var/www/tourneypimp/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/tourneypimp/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/Tournament/viewScores/
+---

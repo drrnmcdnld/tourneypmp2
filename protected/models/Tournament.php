@@ -51,9 +51,9 @@ class Tournament extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'user' => array(self::BELONGS_TO, 'User', 'user_id'),
-			'teams' => array(self::HAS_MANY, 'Team', 'tournament_id'),
-                        'games' => array(self::HAS_MANY, 'Game', 'tournament_id'),
+                    'user' => array(self::BELONGS_TO, 'User', 'user_id'),
+                    'teams' => array(self::HAS_MANY, 'Team', 'tournament_id'),
+                    'games' => array(self::HAS_MANY, 'Game', 'tournament_id'),
 		);
 	}
 
@@ -110,4 +110,8 @@ class Tournament extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+        
+        /*public function getStandings() {
+            $sql = "SELECT SUM(games"
+        }*/
 }

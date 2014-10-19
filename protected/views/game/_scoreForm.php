@@ -6,7 +6,7 @@
 
 <div class="form">
 
-<?php $form=$this->beginWidget('CActiveForm', array(
+<?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm', array(
 	'id'=>'game-form',
 	// Please note: When you enable ajax validation, make sure the corresponding
 	// controller action is handling ajax validation correctly.
@@ -18,20 +18,24 @@
 	<?php echo $form->errorSummary($game); ?>
         
         <div class="row">
+            <div class='col-lg-3'>
             <?php echo $form->labelEx($game, $game->awayTeam->name.":"); ?>
-            <?php echo $form->textField($game,'away_team_score'); ?>
+            <?php echo $form->textField($game,'away_team_score', array('block'=>true)); ?>
             <?php echo $form->error($game,'away_team_score'); ?>
-	</div>
+            </div></div>
 
 	<div class="row">
+            <div class='col-lg-3'>
             <?php echo $form->labelEx($game, $game->homeTeam->name.":"); ?>
-            <?php echo $form->textField($game,'home_team_score'); ?>
+            <?php echo $form->textField($game,'home_team_score', array('block'=>true)); ?>
             <?php echo $form->error($game,'home_team_score'); ?>
+            </div>
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Enter Score'); ?>
-	</div>
+            <div class='col-lg-3'>
+		<?php echo TbHtml::submitButton('Enter Score', array('color'=>TbHtml::BUTTON_COLOR_SUCCESS)); ?>
+            </div></div>
 
 <?php $this->endWidget(); ?>
 

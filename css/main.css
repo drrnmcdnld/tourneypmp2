@@ -12,14 +12,14 @@ body
 	margin-top: 5px;
 	margin-bottom: 5px;
 	background: white;
-	border: 1px solid #C9E0ED;
+	border: 1px solid #2c6d15;
 }
 
 #header
 {
 	margin: 0;
 	padding: 0;
-	border-top: 3px solid #C9E0ED;
+	border-top: 3px solid #2c6d15;
 }
 
 #content
@@ -38,7 +38,15 @@ body
 	margin: 10px 20px;
 	font-size: 0.8em;
 	text-align: center;
-	border-top: 1px solid #C9E0ED;
+	border-top: 1px solid #2c6d15;
+}
+#footer a {
+    color: #2c6d15;
+}
+
+#mainmenu li.active a,
+#mainmenu li a:hover {
+    color: #2C6D15 !important;
 }
 
 #logo
@@ -47,9 +55,40 @@ body
 	font-size: 200%;
 }
 
+.row-indent {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+.button-add-tourney {
+    margin-bottom: 20px !important;
+}
+
+.list-group-item {
+    border: 1px solid #2c6d15 !important;
+    color: #2c6d15 !important;
+}
+a.list-group-item {
+    font-weight: bold;
+}
+a.list-group-item:hover {
+    background: #2c6d15 !important;
+    color: #FFF !important;
+}
+
+.list-group-item p {
+    margin-bottom: 0px !important;
+}
+
+
+.row-add-teams > div {
+    margin-bottom: 10px;
+}
+
 #mainmenu
 {
-	background:white url(bg.gif) repeat-x left top;
+    background: #2c6d15;
+	//background:white url(bg.gif) repeat-x left top;
 }
 
 #mainmenu ul
