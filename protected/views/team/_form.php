@@ -1,6 +1,6 @@
 <?php
 /* @var $this TeamController */
-/* @var $model Team */
+/* @var $team Team */
 /* @var $form CActiveForm */
 ?>
 
@@ -17,22 +17,16 @@
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
-	<?php echo $form->errorSummary($model); ?>
+	<?php echo $form->errorSummary($team); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'tournament_id'); ?>
-		<?php echo $form->textField($model,'tournament_id'); ?>
-		<?php echo $form->error($model,'tournament_id'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'name'); ?>
-		<?php echo $form->textField($model,'name',array('size'=>60,'maxlength'=>255)); ?>
-		<?php echo $form->error($model,'name'); ?>
+		<?php echo $form->labelEx($team,'name'); ?>
+		<?php echo $form->textField($team,'name',array('size'=>60,'maxlength'=>255)); ?>
+		<?php echo $form->error($team,'name'); ?>
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php echo TbHtml::submitButton($team->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

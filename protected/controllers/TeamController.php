@@ -6,7 +6,7 @@ class TeamController extends Controller
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $layout='//layouts/column2';
+	public $layout='//layouts/main';
 
 	/**
 	 * @return array action filters
@@ -60,23 +60,35 @@ class TeamController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionCreate()
+	public function actionCreate($tid)
 	{
-		$model=new Team;
-
+            $tournament = Tournament::model()->find('id=:tid AND user_id=:uid', array(':tid'=>$tid, ':uid'=>Yii::app()->user->uid));
+            
+            if ($tournament != null) {
+                
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
-
-		if(isset($_POST['Team']))
+		if(isset($_POST['new_teams']))
 		{
-			$model->attributes=$_POST['Team'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+                    foreach($_POST['new_teams'] as $teamname) {
+                        if (!preg_match("/^\s*$/", $teamname)) {
+                            $team = new Team;
+                            $team->tournament_id = $tid;
+                            $team->name = $teamname;
+                            $team->save();
+                        }
+                    }
+
+                    $this->redirect(array('Tournament/view','id'=>$tid));
 		}
 
 		$this->render('create',array(
-			'model'=>$model,
+                    'tournament'=>$tournament,
 		));
+            }
+            else {
+                $this->redirect('site/index');
+            }
 	}
 
 	/**
@@ -84,23 +96,26 @@ class TeamController extends Controller
 	 * If update is successful, the browser will be redirected to the 'view' page.
 	 * @param integer $id the ID of the model to be updated
 	 */
-	public function actionUpdate($id)
+	public function actionUpdate($id, $tid)
 	{
-		$model=$this->loadModel($id);
+            $team = Team::model()->find('id=:teid AND tournament_id=:toid', array(':teid'=>$id, ':toid'=>$tid));
 
-		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+            if ($team != null) {
 
-		if(isset($_POST['Team']))
-		{
-			$model->attributes=$_POST['Team'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
-		}
+                if(isset($_POST['Team']))
+                {
+                        $team->attributes=$_POST['Team'];
+                        if($team->save())
+                            $this->redirect(array('Tournament/view','id'=>$tid));
+                }
 
-		$this->render('update',array(
-			'model'=>$model,
-		));
+                $this->render('update',array(
+                        'team'=>$team,
+                ));
+            }
+            else {
+                $this->redirect('site/index');
+            }
 	}
 
 	/**

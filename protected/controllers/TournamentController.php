@@ -51,8 +51,10 @@ class TournamentController extends Controller
 	 */
 	public function actionView($id)
 	{
+            $tournament = Tournament::model()->find('id=:tid AND user_id=:uid', array(':tid'=>$id, ':uid'=>Yii::app()->user->uid));
+            
 		$this->render('view',array(
-			'model'=>$this->loadModel($id),
+                    'tournament'=>$tournament,
 		));
 	}
 
@@ -87,20 +89,20 @@ class TournamentController extends Controller
 	 */
 	public function actionUpdate($id)
 	{
-		$model=$this->loadModel($id);
+		$tournament=$this->loadModel($id);
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['Tournament']))
 		{
-			$model->attributes=$_POST['Tournament'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+                    $tournament->attributes=$_POST['Tournament'];
+                    if($tournament->save())
+                        $this->redirect(array('view','id'=>$tournament->id));
 		}
 
 		$this->render('update',array(
-			'model'=>$model,
+                    'tournament'=>$tournament,
 		));
 	}
 
