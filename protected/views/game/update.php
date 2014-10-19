@@ -1,21 +1,21 @@
 <?php
 /* @var $this GameController */
-/* @var $model Game */
+/* @var $game Game */
 
 $this->breadcrumbs=array(
 	'Games'=>array('index'),
-	$model->id=>array('view','id'=>$model->id),
+	$game->id=>array('view','id'=>$game->id),
 	'Update',
 );
 
 $this->menu=array(
 	array('label'=>'List Game', 'url'=>array('index')),
 	array('label'=>'Create Game', 'url'=>array('create')),
-	array('label'=>'View Game', 'url'=>array('view', 'id'=>$model->id)),
+	array('label'=>'View Game', 'url'=>array('view', 'id'=>$game->id)),
 	array('label'=>'Manage Game', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Game <?php echo $model->id; ?></h1>
+<h1>Update Game <?php echo $game->id; ?></h1>
 
-<?php $this->renderPartial('_form', array('model'=>$model)); ?>
+<?php $this->renderPartial('_form', array('game'=>$game)); ?>

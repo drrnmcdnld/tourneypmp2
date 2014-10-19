@@ -53,9 +53,9 @@ class TournamentController extends Controller
 	{
             $tournament = Tournament::model()->find('id=:tid AND user_id=:uid', array(':tid'=>$id, ':uid'=>Yii::app()->user->uid));
             
-		$this->render('view',array(
-                    'tournament'=>$tournament,
-		));
+            $this->render('view',array(
+                'tournament'=>$tournament,
+            ));
 	}
 
 	/**

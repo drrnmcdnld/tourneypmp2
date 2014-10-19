@@ -3,12 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/var/www/tourneypimp/protected/views/site/index.php</file>
-            <file>file:/var/www/tourneypimp/protected/views/tournament/index.php</file>
-            <file>file:/var/www/tourneypimp/protected/controllers/SiteController.php</file>
+            <file>file:/var/www/tourneypimp/protected/views/tournament/view.php</file>
+            <file>file:/var/www/tourneypimp/protected/config/main.php</file>
+            <file>file:/var/www/tourneypimp/protected/views/game/_scoreForm.php</file>
+            <file>file:/var/www/tourneypimp/protected/views/game/view.php</file>
             <file>file:/var/www/tourneypimp/protected/controllers/TournamentController.php</file>
-            <file>file:/var/www/tourneypimp/protected/views/tournament/_form.php</file>
-            <file>file:/var/www/tourneypimp/protected/views/layouts/main.php</file>
+            <file>file:/var/www/tourneypimp/protected/controllers/SiteController.php</file>
+            <file>file:/var/www/tourneypimp/protected/views/game/create.php</file>
+            <file>file:/var/www/tourneypimp/protected/models/Game.php</file>
+            <file>file:/var/www/tourneypimp/protected/views/game/enterScore.php</file>
+            <file>file:/var/www/tourneypimp/protected/controllers/GameController.php</file>
         </group>
     </open-files>
 </project-private>

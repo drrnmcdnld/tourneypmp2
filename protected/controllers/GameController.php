@@ -32,7 +32,7 @@ class GameController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','enterScore'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -93,25 +93,48 @@ class GameController extends Controller
 	/**
 	 * Updates a particular model.
 	 * If update is successful, the browser will be redirected to the 'view' page.
-	 * @param integer $id the ID of the model to be updated
+	 * @param integer $id the ID of the game to be updated
 	 */
 	public function actionUpdate($id)
 	{
-		$model=$this->loadModel($id);
+		$game=$this->loadModel($id);
 
 		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+		// $this->performAjaxValidation($game);
 
 		if(isset($_POST['Game']))
 		{
-			$model->attributes=$_POST['Game'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+			$game->attributes=$_POST['Game'];
+			if($game->save())
+				$this->redirect(array('view','id'=>$game->id));
 		}
 
 		$this->render('update',array(
-			'model'=>$model,
+			'game'=>$game,
 		));
+	}
+        
+        public function actionEnterScore($id, $tid)
+	{
+            $game=$this->loadModel($id);
+
+            if(isset($_POST['Game']))
+            {
+                $game->game_played = 1;
+                $game->home_team_score = $_POST['Game']['home_team_score'];
+                $game->away_team_score = $_POST['Game']['away_team_score'];
+                
+                if ($game->save()) {
+                    $this->redirect(array('Tournament/view', 'id'=>$tid));
+                }
+                else {
+                    $game->addError('id', 'Could not enter score.  Please contact support');
+                }
+            }
+
+            $this->render('enterScore',array(
+                'game'=>$game,
+            ));
 	}
 
 	/**

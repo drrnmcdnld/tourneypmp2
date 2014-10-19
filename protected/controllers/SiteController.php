@@ -35,7 +35,7 @@ class SiteController extends Controller
 		$this->render('index');
             }
             else {
-                $tournaments = Tournament::model()->find("user_id=:uid", array(":uid"=>Yii::app()->user->uid));
+                $tournaments = Tournament::model()->findAll("user_id=:uid", array(":uid"=>Yii::app()->user->uid));
                 $this->render('/tournament/index', array('tournaments'=>$tournaments));
             }
                 

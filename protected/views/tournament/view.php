@@ -49,8 +49,9 @@
 ?>
     <div class="list-group-item">
         <p>
-            <?php echo $game->awayTeam->name; ?> @ <?php echo $game->homeTeam->name; ?> - <?php echo date('F d, Y g:ia', strtotime($game->game_time)); ?>&nbsp;&nbsp;
-            <?php echo TbHtml::linkButton('Edit Game', array('url'=>array('Game/update', 'id'=>$game->id, 'tid'=>$tournament->id))); ?>&nbsp;&nbsp;
+            <?php echo $game->awayTeam->name; ?><?php if ($game->game_played == 1) { ?> (<?php echo $game->away_team_score)<?php} ?> @ <?php echo $game->homeTeam->name; ?> - <?php echo date('F j, Y g:ia', strtotime($game->game_time)); ?>&nbsp;&nbsp;
+            <?php echo TbHtml::linkButton('Edit Game Info', array('url'=>array('Game/update', 'id'=>$game->id, 'tid'=>$tournament->id))); ?>&nbsp;&nbsp;
+            <?php echo TbHtml::linkButton('Enter Final Score', array('url'=>array('Game/enterScore', 'id'=>$game->id, 'tid'=>$tournament->id))); ?>&nbsp;&nbsp;
             <?php //echo TbHtml::linkButton('<i class="fa fa-times"></i>', array('url'=>'#', 'confirm'=>'Are you sure you want to delete this game?', 'linkOptions'=>array('submit'=>array('delete','id'=>$game->id)), 'color'=>TbHtml::BUTTON_COLOR_DANGER));//,' ?>
         </p>
     </div>
