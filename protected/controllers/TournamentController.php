@@ -28,7 +28,7 @@ class TournamentController extends Controller
 	{
             return array(
                 array('allow',  // allow all users to perform 'index' and 'view' actions
-                    'actions'=>array('viewTournament', 'viewStandings', 'viewScores'),
+                    'actions'=>array('viewTournaments', 'viewStandings', 'viewScores'),
                     'users'=>array('*'),
                 ),
                 array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -76,6 +76,12 @@ class TournamentController extends Controller
             else {
                 $this->redirect('site/index');
             }
+        }
+        
+        public function actionViewTournaments() {
+            $tournaments = Tournament::model()->findAll('1 order by name');
+            
+            $this->render('viewTournaments', array('tournaments'=>$tournaments));
         }
 
 	/**
