@@ -53,6 +53,7 @@ class Tournament extends CActiveRecord
 		return array(
 			'user' => array(self::BELONGS_TO, 'User', 'user_id'),
 			'teams' => array(self::HAS_MANY, 'Team', 'tournament_id'),
+                        'games' => array(self::HAS_MANY, 'Game', 'tournament_id'),
 		);
 	}
 

@@ -14,6 +14,7 @@ return array(
 
         'aliases' => array(
             'bootstrap' => realpath(__DIR__ . '/../extensions/bootstrap'), // change this if necessary
+            'yiiwheels' => realpath(__DIR__ . '/../extensions/yiiwheels'),
         ),
     
 	// autoloading model and component classes
@@ -46,7 +47,11 @@ return array(
 		),
             
             'bootstrap' => array(
-                'class' => 'bootstrap.components.TbApi',   
+                'class' => 'bootstrap.components.TbApi',
+            ),
+            
+            'yiiwheels'=>array(
+                'class' => 'yiiwheels.YiiWheels',
             ),
             
 		// uncomment the following to enable URLs in path-format

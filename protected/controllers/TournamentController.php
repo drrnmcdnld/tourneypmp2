@@ -64,21 +64,21 @@ class TournamentController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Tournament;
+		$tournament=new Tournament;
 
 		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+		// $this->performAjaxValidation($tournament);
 
 		if(isset($_POST['Tournament']))
 		{
-			$model->attributes=$_POST['Tournament'];
-                        $model->user_id = Yii::app()->user->uid;
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+			$tournament->attributes=$_POST['Tournament'];
+                        $tournament->user_id = Yii::app()->user->uid;
+			if($tournament->save())
+				$this->redirect(array('view','id'=>$tournament->id));
 		}
 
 		$this->render('create',array(
-			'model'=>$model,
+			'tournament'=>$tournament,
 		));
 	}
 

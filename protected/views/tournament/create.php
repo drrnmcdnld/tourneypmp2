@@ -1,6 +1,6 @@
 <?php
 /* @var $this TournamentController */
-/* @var $model Tournament */
+/* @var $tournament Tournament */
 
 $this->breadcrumbs=array(
 	'Tournaments'=>array('index'),
@@ -15,4 +15,4 @@ $this->menu=array(
 
 <h1>Create Tournament</h1>
 
-<?php $this->renderPartial('_form', array('model'=>$model)); ?>
+<?php $this->renderPartial('_form', array('tournament'=>$tournament)); ?>

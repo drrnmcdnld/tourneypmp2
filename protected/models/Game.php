@@ -53,6 +53,7 @@ class Game extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+                        'tournament' => array(self::BELONGS_TO, 'Tournament', 'tournament_id'),
 			'field' => array(self::BELONGS_TO, 'Field', 'field_id'),
 			'awayTeam' => array(self::BELONGS_TO, 'Team', 'away_team_id'),
 			'homeTeam' => array(self::BELONGS_TO, 'Team', 'home_team_id'),

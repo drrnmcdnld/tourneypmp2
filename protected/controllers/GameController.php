@@ -6,7 +6,7 @@ class GameController extends Controller
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $layout='//layouts/column2';
+	public $layout='//layouts/main';
 
 	/**
 	 * @return array action filters
@@ -60,23 +60,34 @@ class GameController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionCreate()
+	public function actionCreate($tid)
 	{
-		$model=new Game;
+            $tournament = Tournament::model()->find('id=:tid AND user_id=:uid', array(':tid'=>$tid, ':uid'=>Yii::app()->user->uid));
+            $game=new Game;
+            $fields = Field::model()->findAll();
 
-		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+            if(isset($_POST['Game']))
+            {
+                    $game->attributes=$_POST['Game'];
+                    $game->tournament_id=$tid;
+                    if ($game->home_team_id == $game->away_team_id) {
+                        $game->addError('away_team_id', 'Home Team cannot be the same as the Away Team.');
+                    }
+                    else {
+                        $game->home_team_score = 0;
+                        $game->away_team_score = 0;
+                        $game->game_played = 0;
+                        if($game->save()) {
+                            $this->redirect(array('Tournament/view','id'=>$tid));
+                        }
+                    }
+            }
 
-		if(isset($_POST['Game']))
-		{
-			$model->attributes=$_POST['Game'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
-		}
-
-		$this->render('create',array(
-			'model'=>$model,
-		));
+            $this->render('create',array(
+                'game'=>$game,
+                'tournament' => $tournament,
+                'fields'=>$fields,
+            ));
 	}
 
 	/**

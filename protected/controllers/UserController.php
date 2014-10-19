@@ -70,8 +70,18 @@ class UserController extends Controller
 		if(isset($_POST['User']))
 		{
 			$model->attributes=$_POST['User'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+			if($model->save()) {
+                            $loginForm = new LoginForm;
+                            $loginForm->username = $model->name;
+                            $loginForm->password = $model->password;
+                            if($loginForm->validate() && $loginForm->login()) {
+				$this->redirect('/Tournament/index');
+                            }
+                            else {
+                                $this->redirect('site/index');
+                            }
+                        }
+				
 		}
 
 		$this->render('create',array(
