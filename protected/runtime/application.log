@@ -2478,3 +2478,1065 @@ REQUEST_URI=/Tournament/viewTournaments
 in /var/www/tourneypimp/protected/views/tournament/viewTournaments.php (8)
 in /var/www/tourneypimp/protected/controllers/TournamentController.php (84)
 in /var/www/tourneypimp/index.php (14)
+2014/10/19 21:16:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/
+---
+2014/10/19 21:16:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/
+---
+2014/10/19 21:16:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/
+---
+2014/10/19 21:16:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/
+---
+2014/10/19 21:16:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/
+---
+2014/10/19 21:16:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:16:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:16:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:16:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:16:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:16:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/index.php/site/login
+---
+2014/10/19 21:16:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/index.php/site/login
+---
+2014/10/19 21:16:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/index.php/site/login
+---
+2014/10/19 21:16:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/index.php/site/login
+---
+2014/10/19 21:16:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.yiiactiveform.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.yiiactiveform.js
+HTTP_REFERER=http://localhost:8888/index.php/site/login
+---
+2014/10/19 21:16:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/index.php/site/login
+---
+2014/10/19 21:16:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:16:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:16:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:16:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:16:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:16:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:16:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:16:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:16:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:16:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:16:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/index.php/User/create
+---
+2014/10/19 21:16:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/index.php/User/create
+---
+2014/10/19 21:16:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/index.php/User/create
+---
+2014/10/19 21:16:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/index.php/User/create
+---
+2014/10/19 21:16:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/index.php/User/create
+---
+2014/10/19 21:16:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/index.php/site/login
+---
+2014/10/19 21:16:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/index.php/site/login
+---
+2014/10/19 21:16:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.yiiactiveform.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.yiiactiveform.js
+HTTP_REFERER=http://localhost:8888/index.php/site/login
+---
+2014/10/19 21:16:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/index.php/site/login
+---
+2014/10/19 21:16:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/index.php/site/login
+---
+2014/10/19 21:16:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/index.php/site/login
+---
+2014/10/19 21:16:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/index.php
+---
+2014/10/19 21:16:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/index.php
+---
+2014/10/19 21:16:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/index.php
+---
+2014/10/19 21:16:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/index.php
+---
+2014/10/19 21:16:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/index.php
+---
+2014/10/19 21:16:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:16:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:16:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:16:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:16:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:16:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/Tournament/3/
+---
+2014/10/19 21:16:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/Tournament/3/
+---
+2014/10/19 21:16:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/Tournament/3/
+---
+2014/10/19 21:16:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/Tournament/3/
+---
+2014/10/19 21:16:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/Tournament/3/
+---
+2014/10/19 21:16:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/index.php/tournament/update/3
+---
+2014/10/19 21:16:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/index.php/tournament/update/3
+---
+2014/10/19 21:16:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/index.php/tournament/update/3
+---
+2014/10/19 21:16:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/index.php/tournament/update/3
+---
+2014/10/19 21:16:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/index.php/tournament/update/3
+---
+2014/10/19 21:16:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:16:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:16:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:16:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:16:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:16:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:16:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:16:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:16:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:16:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/Tournament/1/
+---
+2014/10/19 21:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/Tournament/1/
+---
+2014/10/19 21:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/Tournament/1/
+---
+2014/10/19 21:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/Tournament/1/
+---
+2014/10/19 21:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/Tournament/1/
+---
+2014/10/19 21:17:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/index.php/tournament/update/1
+---
+2014/10/19 21:17:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/index.php/tournament/update/1
+---
+2014/10/19 21:17:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/index.php/tournament/update/1
+---
+2014/10/19 21:17:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/index.php/tournament/update/1
+---
+2014/10/19 21:17:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/index.php/tournament/update/1
+---
+2014/10/19 21:17:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:17:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:17:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:17:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:17:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/
+---
+2014/10/19 21:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/
+---
+2014/10/19 21:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/
+---
+2014/10/19 21:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/
+---
+2014/10/19 21:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/
+---
+2014/10/19 21:18:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:18:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:18:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:18:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:18:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:18:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:18:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:18:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:18:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:18:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/index.php/Tournament/index
+---
+2014/10/19 21:18:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/index.php
+---
+2014/10/19 21:18:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/index.php
+---
+2014/10/19 21:18:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/index.php
+---
+2014/10/19 21:18:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/index.php
+---
+2014/10/19 21:18:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/index.php
+---
+2014/10/19 21:19:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:19:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:19:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:19:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:19:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/index.php/site/index
+---
+2014/10/19 21:19:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/index.php/User/create
+---
+2014/10/19 21:19:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/index.php/User/create
+---
+2014/10/19 21:19:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/index.php/User/create
+---
+2014/10/19 21:19:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/index.php/User/create
+---
+2014/10/19 21:19:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/index.php/User/create
+---
+2014/10/19 21:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/yiistrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/yiistrap.css
+HTTP_REFERER=http://localhost:8888/index.php/site/login
+---
+2014/10/19 21:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap-responsive.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost:8888/index.php/site/login
+---
+2014/10/19 21:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/css/bootstrap.css".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/css/bootstrap.css
+HTTP_REFERER=http://localhost:8888/index.php/site/login
+---
+2014/10/19 21:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.js
+HTTP_REFERER=http://localhost:8888/index.php/site/login
+---
+2014/10/19 21:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/f7e5096f/jquery.yiiactiveform.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/f7e5096f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/f7e5096f/jquery.yiiactiveform.js
+HTTP_REFERER=http://localhost:8888/index.php/site/login
+---
+2014/10/19 21:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/36b0181f/js/bootstrap.js".' in /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/36b0181f...')
+#1 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/dmac/Dropbox/UIT/repositories/Marcato/tourneypmp2/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/36b0181f/js/bootstrap.js
+HTTP_REFERER=http://localhost:8888/index.php/site/login
+---
